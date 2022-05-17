@@ -1,0 +1,32 @@
+*{
+ margin: 0rem;
+padding: 0;
+box-sizing: border-box;  
+}
+
+html{
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Vidaloka', serif;
+}
+
+:root {
+    --color1: #BF9411;
+    --color2: #D1954D;
+    --color3: #EDDECD;
+    --color4: #5A0000;
+    --color5: #AD172B;
+    --color6: #ffffff;
+
+}
+
+
