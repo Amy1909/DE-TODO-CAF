@@ -1,0 +1,60 @@
+
+
+.itemcarrusel{
+
+    height: 680px;
+    width: 680px;
+    position: relative;
+}
+
+.tarjetacarrusel{
+  
+    height: 100%;
+}
+
+.flechacarrusel{
+   
+   height: 100%;
+   width: 100%;
+   position:absolute;
+   top: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+}
+
+#conteItem{
+    height: 680px;
+    width: 680px;
+    top: 200px;
+   overflow: hidden;
+}
+
+.conteItem{
+    left: 1000px;
+}
+
+#tarjetacarrusel-1 img{
+   width: 680px;
+   height: 680px;
+
+}
+
+
+#tarjetacarrusel-2 img{
+    width: 680px;
+    height: 680px;
+
+}
+
+
+#tarjetacarrusel-3 img{
+    width: 680px;
+    height: 680px;
+}
+
+.top{
+ margin-top: 180px; 
+ margin-left: 622px;
+}

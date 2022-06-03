@@ -121,3 +121,261 @@ header ul li img{
     .PRESENTACIÓN  :hover {
         color: white;
         background-color: var(--color2);}
+
+
+        .abajo img{
+            position: absolute;
+            width: 1920px;
+            height: 890px;
+            top: 1970px;
+        }    
+
+
+    .caramel{
+        position: absolute;
+         height: 623.68px;
+        left: 1490px;
+        top: 1700px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
+    }
+    .taza{
+
+        position: absolute;
+        width: 387px;
+        height: 581px;
+        left: 1px;
+        top: 1700px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .cafebajo{
+        z-index: 1;
+        position: absolute;
+        width: 341.54px;
+        height: 401.28px;
+        left: 1px;
+        top: 2304px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .tazon img{
+        z-index: 1;
+        position: absolute;
+        width: 400px;
+        height: 580px;
+        left: 1520px;
+        top: 2280px;
+    }
+
+    .logo1 img{
+        position: absolute;
+width: 232px;
+height: 232px;
+left: 330px;
+top: 2138px;
+border-radius: 100px;
+z-index: 1;
+    }
+
+    .descrip{
+        
+position: absolute;
+width: 462px;
+height: 327px;
+left: 220px;
+top: 2314px;
+background: #D1954D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 43px;
+
+    }
+
+    .descrip p{
+   position: absolute;
+width: 379px;
+height: 120px;
+right: 50px;
+bottom: 100px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+text-align: justify;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+    }
+
+.logo2 img{
+    position: absolute;
+    width: 232px;
+    height: 232px;
+    left: 820px;
+    top: 2138px;
+    border-radius: 100px;
+    z-index: 1;
+}
+
+.descrip2{
+    position: absolute;
+width: 462px;
+height: 327px;
+left: 720px;
+top: 2314px;
+background: #D1954D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 43px;
+}
+
+.descrip2 p{
+    position: absolute;
+    width: 379px;
+    height: 120px;
+    right: 50px;
+    bottom: 100px;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+
+.logo3 img{
+    position: absolute;
+    width: 232px;
+    height: 232px;
+    left: 1310px;
+    top: 2138px;
+    border-radius: 100px;
+    z-index: 1;
+}
+
+.descrip3{
+    position: absolute;
+width: 462px;
+height: 327px;
+left: 1210px;
+top: 2314px;
+background: #D1954D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 43px;
+}
+
+.descrip3 p{
+    position: absolute;
+    width: 379px;
+    height: 120px;
+    right: 50px;
+    bottom: 100px;
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+
+
+.CATALOGOS{
+position: absolute;
+width: 295px;
+height: 51px;
+left: 823px;
+top: 2712px;
+border-radius: 60px;
+
+display: flex;
+}
+.CATALOGOS  :hover {
+    color:#ffffff;
+    background-color: var(--color2);}
+    
+.CATALOGOS a{
+    text-decoration: none;
+    position: absolute;
+width: 295px;
+height: 51px;
+left: px;
+top: 20px;
+color: #ffffff;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-transform: capitalize;
+background: #5A0505;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+text-align: center;
+}
+
+
+
+.footer{
+ 
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top:   2800px;
+    
+    background: #5A0505;
+}
+
+.footer h1{
+    position: absolute;
+   
+    height: 100xp;
+    left: 6px;
+    bottom: 30px;
+    
+    font-family: 'Vidaloka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+
+.insta{
+    
+    
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1565px;
+    top: 10px;
+
+}
+
+.face{
+       
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1480px;
+    top: 10px;
+    }
+    .gmail{
+    
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 1650px;
+        top: 10px;
+        }
