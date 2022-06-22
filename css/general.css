@@ -9,18 +9,10 @@ body{
 }
 
 html{
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
 font-family: 'Quicksand', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Vidaloka', serif;
+font-size: 10px; /* --- 62.5% --- */
+
 }
 
 :root {

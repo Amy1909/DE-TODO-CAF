@@ -1,106 +1,35 @@
-
-header{
-    width: 100%;
-    height: 6rem;
-    box-shadow: 3px 3px 30px #2d2d2d; 
-    
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-}
-
-
-
+/**home******************************************************/
 .fondo{
     width: 100%;
-    height: 100vh; 
+    height: 100%; 
     display: flex;
     align-items: flex-start;
 }
 
-.logo img {
-
-    width: 7rem;
-    height: 16rem;
-    margin-left: 1rem;
-
-}
-
-header ul{
-    width: 40%;
-    margin-left: 30px;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;    
-}
-header ul:hover{
-    opacity: 50%;
-    animation-duration: 1s;
-}
-
-
-
-header ul li img{
-    width: 50px;
-    height: 50px;
-}
-
-.sesión{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-.sesión li{
-    width: 22%;
-    height: 53%;
-    background-color: rgb(184, 184, 184);
-    opacity: 50%;
-    margin-right: 4rem;
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.sesión li:hover{
-    width: 300px;
-    height: 30px;
-    padding-top: 10px;
-    transition: 0.5s;
-    }
-
-
     h1{
-    margin-top: 38rem;
+    margin-top: 35rem;
     position: absolute;
     display: flex;
     font-family: 'Vidaloka', serif; 
     margin-left: 7rem;
-    font-size:  5rem;
+    font-size:  7rem;
     color: var(--color4);
     }
 
     p{
-    margin-top: 44rem;
+    margin-top: 45rem;
     position: absolute;
     display: flex;
     font-family: 'Quicksand', sans-serif;
     margin-left: 7rem;
-    font-size:  rem;
+    font-size:  1.6rem;
     color: var(--color4);
     }
     .PRESENTACIÓN {
 
         width: 15%;
         height: 5%;
-        border-radius: 50px;
+        border-radius: 5rem;
         justify-content: space-around;
         align-items: center;
         margin-left: 10rem;
@@ -111,308 +40,91 @@ header ul li img{
         position: absolute;
         display: flex;
         flex-direction: row; 
-        margin-bottom: 15rem;
+        margin-bottom: 60rem;
         background-color: var(--color4);
         width: 15%;
         height: 5%;
-        border-radius: 50px;
+        border-radius: 5rem;
         justify-content: space-around;
-        padding-top: 5px;
+        padding-top: 0.5rem;
         color: #fff;
         text-decoration: none;
         font-family: 'Quicksand', sans-serif; 
+        font-size: 1.5rem;
     }
     .PRESENTACIÓN  :hover {
         color: white;
         background-color: var(--color2);}
 
 
-        .abajo img{
-            position: absolute;
-            width: 1920px;
-            height: 890px;
-            top: 1970px;
-        }    
+     
 
+/**REDES******************************************************/
 
-    .caramel{
-        position: absolute;
-         height: 623.68px;
-        left: 1490px;
-        top: 1700px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
-    }
-    .taza{
-
-        position: absolute;
-        width: 387px;
-        height: 581px;
-        left: 1px;
-        top: 1700px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    }
-    .cafebajo{
-        z-index: 1;
-        position: absolute;
-        width: 341.54px;
-        height: 401.28px;
-        left: 1px;
-        top: 2500px;
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    }
-
-    .tazon img{
-        z-index: 1;
-        position: absolute;
-        width: 400px;
-        height: 580px;
-        left: 1520px;
-        top: 2280px;
-    }
-
-    .logo1 img{
-        position: absolute;
-width: 232px;
-height: 232px;
-left: 330px;
-top: 2138px;
-border-radius: 100px;
-z-index: 1;
-    }
-
-    .descrip{
-        
-position: absolute;
-width: 462px;
-height: 327px;
-left: 220px;
-top: 2314px;
-background: #D1954D;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 43px;
-
-    }
-
-    .descrip p{
-   position: absolute;
-width: 379px;
-height: 120px;
-right: 50px;
-bottom: 100px;
-
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 30px;
-text-align: justify;
-text-transform: capitalize;
-
-color: #FFFFFF;
-
-
-    }
-
-.logo2 img{
-    position: absolute;
-    width: 232px;
-    height: 232px;
-    left: 820px;
-    top: 2138px;
-    border-radius: 100px;
-    z-index: 1;
-}
-
-.descrip2{
-    position: absolute;
-width: 462px;
-height: 327px;
-left: 720px;
-top: 2314px;
-background: #D1954D;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 43px;
-}
-
-.descrip2 p{
-    position: absolute;
-    width: 379px;
-    height: 120px;
-    right: 50px;
-    bottom: 100px;
-    
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: justify;
-    text-transform: capitalize;
-    
-    color: #FFFFFF;
-}
-
-.logo3 img{
-    position: absolute;
-    width: 232px;
-    height: 232px;
-    left: 1310px;
-    top: 2138px;
-    border-radius: 100px;
-    z-index: 1;
-}
-
-.descrip3{
-    position: absolute;
-width: 462px;
-height: 327px;
-left: 1210px;
-top: 2314px;
-background: #D1954D;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 43px;
-}
-
-.descrip3 p{
-    position: absolute;
-    width: 379px;
-    height: 120px;
-    right: 50px;
-    bottom: 100px;
-    
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: justify;
-    text-transform: capitalize;
-    
-    color: #FFFFFF;
-}
-
-
-.CATALOGOS{
-position: absolute;
-width: 295px;
-height: 51px;
-left: 823px;
-top: 2712px;
-border-radius: 60px;
-
-display: flex;
-}
-.CATALOGOS  :hover {
-    color:#ffffff;
-    background-color: var(--color2);}
-    
-.CATALOGOS a{
-    text-decoration: none;
-    position: absolute;
-width: 295px;
-height: 51px;
-left: px;
-top: 20px;
-color: #ffffff;
-font-family: 'Quicksand';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 30px;
-text-transform: capitalize;
-background: #5A0505;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 60px;
-text-align: center;
-}
-
-.footer{
- 
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    left: 0px;
-    top:   3500px;
-    
-    background: #5A0505;
-}
-
-.footer h1{
-    position: absolute;
-   
-    height: 100xp;
-    left: 6px;
-    bottom: 30px;
-    
-    font-family: 'Vidaloka';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
-    text-transform: capitalize;
-    
-    color: #FFFFFF;
-}
-.redes h1{
-    height: 156px;
-    left: 250px;
-    bottom: 450px;
-    
-    font-family: 'Vidaloka';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 80px;
-    line-height: 80px;
-    color: #EDDECD;
-    text-transform: capitalize;}
 
 .redes{
     position: absolute;
     width: 100%;
-    height: 780px;
-    top: 2800px;
+    height: 78rem;
+    top: 230rem;
     background:#D1954D;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.64);
     }
 
+.redes h1{
+    height: 1.5rem;
+    left: 2rem;
+    bottom: 45rem;
+    font-family: 'Vidaloka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7rem;
+    line-height: 8rem;
+    color: #EDDECD;
+    text-transform: capitalize;}
+
+
+
 
 .redes ol{
-    width: 500px;
-    margin-left: 370px;
+    width: 50rem;
+    margin-left: 10rem;
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
     align-items: center; 
-    height: 800px;
+    height: 70rem;
+    margin-top: 15rem;
+    
 }
 
-.redes ol:hover{
+.redes ol img{
+    z-index: 1;
+    height: 6rem;
+    width: 6rem;
+
+}
+
+.redes ol img:hover{
     opacity: 50%;
     animation-duration: 1s;
 }
 
-.premium{
-    position: absolute;
-    width: 416.89px;
-    height: 543.93px;
-    top: 2790px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
 
 .phone{
     position: absolute;
-    width: 1022px;
-    height: 805px;
-    left: 900px;
-    top: 2698px;
+    width: 100rem;
+    height: 80rem;
+    right: 0rem;
+    top: 228rem;
 }
 .coffee{
     z-index: 1;
     position: absolute;
-width: 300px;
-height: 401px;
-left: 1620px;
-top: 3085px;
+width: 20rem;
+height: 30rem;
+right: 0.7rem;
+top: 270rem;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
