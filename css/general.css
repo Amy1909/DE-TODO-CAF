@@ -1,29 +1,27 @@
-*{
-    margin: 0rem;
-   padding: 0;
-   box-sizing: border-box;  
-   }
-   
-   body{
-       overflow: auto;
-   }
-   
-   html{
-   font-family: 'Quicksand', sans-serif;
-   font-family: 'Vidaloka', serif;
-   font-size: 10px; /* --- 62.5% --- */
-   
-   }
-   
-   :root {
-       --color1: #BF9411;
-       --color2: #D1954D;
-       --color3: #EDDECD;
-       --color4: #5A0000;
-       --color5: #AD172B;
-       --color6: #ffffff;
-   
-   }
-   
-   
-   
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    }
+
+    
+    html{
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Vidaloka', serif;
+    
+    
+    }
+    
+    :root {
+        --color1: #BF9411;
+        --color2: #D1954D;
+        --color3: #EDDECD;
+        --color4: #5A0000;
+        --color5: #AD172B;
+        --color6: #ffffff;
+    
+    }
+    
+    
+    
