@@ -70,61 +70,57 @@
     background:#D1954D;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.64);
     }
+.h1red{
+    position: absolute;
+width: 65.6rem;
+height: 4rem;
+left: 6rem;
+top: -10rem;
 
-.redes h1{
-    height: 1.5rem;
-    left: 2rem;
-    bottom: 45rem;
-    font-family: 'Vidaloka';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 7rem;
-    line-height: 8rem;
-    color: #EDDECD;
-    text-transform: capitalize;}
+font-family: 'Vidaloka';
+font-style: normal;
+font-weight: 400;
+font-size: 7.7rem;
+line-height: 9.4rem;
+text-transform: capitalize;
 
-
-
-
-.redes ol{
-    width: 50rem;
-    margin-left: 10rem;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center; 
-    height: 70rem;
-    margin-top: 15rem;
-    
-}
-
-.redes ol img{
-    z-index: 1;
-    height: 6rem;
-    width: 6rem;
+color: #5A0505;
 
 }
 
-.redes ol img:hover{
+
+.phone{
+position: absolute;
+width: 75.0rem;
+height: 75.0rem;
+right: 1rem;
+top: 2.9rem;
+
+}
+
+.insta{
+    position: absolute;
+width: 10.2rem;
+height: 10.2rem;
+left: 71.4rem;
+top: 60rem;
+
+}
+.insta img:hover{
     opacity: 50%;
     animation-duration: 1s;
 }
 
 
-.phone{
+.face{
     position: absolute;
-    width: 100rem;
-    height: 80rem;
-    right: 0rem;
-    top: 228rem;
+    width: 10.2rem;
+    height: 10.2rem;
+    left: 60rem;
+    top: 60rem; 
 }
-.coffee{
-    z-index: 1;
-    position: absolute;
-width: 20rem;
-height: 30rem;
-right: 0.7rem;
-top: 270rem;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+.img:hover{
+    opacity: 50%;
+    animation-duration: 1s;
 }
