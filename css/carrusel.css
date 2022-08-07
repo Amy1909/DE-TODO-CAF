@@ -33,7 +33,7 @@
 #conteItem{
     height: 48rem;
     width: 48rem;
-    top: 20rem;
+    top: 10rem;
    overflow: hidden;
 }
 
@@ -61,6 +61,6 @@
 }
 
 .top{
- margin-top: 10rem; 
- margin-left: 55rem;
+ margin-top: 5rem; 
+ margin-left: 25rem;
 }

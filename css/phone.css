@@ -1,145 +1,84 @@
-/**fondo*/
-.fondo{
-    width: 100%;
-    height: 100%; 
-    display: flex;
-    align-items: flex-start;
-}
-
-    h1{
-    margin-top: 10rem;
-    position: absolute;
-    display: flex;
-    font-family: 'Vidaloka', serif; 
-    margin-left: -2rem;
-    font-size:  2rem;
-    color: var(--color4);
-    
-    }
-
-    p{
-    margin-top: 12rem;
-    position: absolute;
-    display: flex;
-    font-family: 'Quicksand', sans-serif;
-    margin-left: -2rem;
-    font-size:  8px;
-    width: 20rem;
-    color: var(--color4);
-    }
-    .PRESENTACIÓN {
-
-        width: 1%;
-        height: 5%;
-        border-radius: 5rem;
-        justify-content: space-around;
-        align-items: center;
-        margin-left: 20rem;
-        display: flex;
-        flex-direction: row; 
-       
-        }  
-    .PRESENTACIÓN a {
-        position: absolute;
-        display: flex;
-        flex-direction: row; 
-        background-color: var(--color4);
-        width: 8rem;
-        height: -3rem;
-        top: 19rem;
-        border-radius: 5rem;
-        justify-content: space-around;
-        padding-top: 0.5rem;
-        color: #fff;
-        text-decoration: none;
-        font-family: 'Quicksand', sans-serif; 
-        font-size: 8px;
-    }
-    .PRESENTACIÓN  :hover {
-        color: white;
-        background-color: var(--color2);}
-
 /*header*/
 
-
 header{
-    
-    width: 100%;
-    height: 3rem;
-    box-shadow: 0rem 0rem 1rem #c7c5c5; 
     position: absolute;
-    display: flex;
-    flex-direction: column;
-
+    width: 100%;
+    height: 2rem;
+    left: -1rem;
+    top: -6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.carpet img {
+    position: absolute;
+    width: 50px;
+    height: 130px;
+    left: 50px;
+    cursor: pointer;
 }
 
-.logo img {
-
-    width: 4rem;
-    height: 9rem;
-    margin-left: 1rem;
-
-}
-
-header ul{
-    
-    width: 10%;
-    margin-left: 8rem;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;    
-}
-.icons img:hover{
-    opacity: 50%;
-    animation-duration: 1s;
-}
-
-
-
-.icons img{
-
-    width: 20px;
-    height: 20px;
-}
-
-.sesión{
-    width: 10%;
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    font-size: 1rem;
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-.sesión li{
-    width: 15%;
-    height: 53%;
-    visibility: hidden;
-    margin-right: 10rem;
-    border-radius: 5rem;
-    display: flex;
-    border-color: #000000;
-    border-width: 0.1rem;
-    border-style: solid;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.sesión :hover {
-    border-color: transparent;
-    color: white;
-    background-color: var(--color4);}
+.bajaopacidad{
+    position: absolute;
+    width: 300px;
+    display: none;  
+ }
+ 
+ .activaopacidad{
+     display: flex;
+ }
+ 
+ 
+ .nav_link{
+     color: white;
+     display: block;
+     padding: 15px 0;
+     text-decoration: none;
+     font-family: 'Quicksand', sans-serif;
+     font-size: 20px;
+ }
+ .nav_link:hover{
+     animation-duration: 1s;
+     border-radius: 16px;
+     background-color: var(--color4);}
+ 
+ 
+ 
+ .list{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     border-radius: 0 16px 0 16px;
+     background-color: var(--color2);
+     
+ }
+ .list_item{
+     list-style: none;
+     width: 100%;
+     text-align: center;
+ 
+ }
+ 
+ /*clases de java*/
+ 
+ .body_move{
+     margin-left: 250px;
+ }
+ 
+ .menu_side_move{
+    width: 250px;
+ }
+ 
+ 
+ 
+ 
 
 /*carrusel*/
 
 
 .itemcarrusel{
-    height: 20rem;
-    width: 20rem;
+    height: 18rem;
+    width: 18rem;
     position: relative;
 }
 
@@ -150,25 +89,27 @@ header ul{
 
 .flechacarrusel{
 
-   height: 110%;
-   width: 110%;
+   height: 100%;
+   width: 100%;
    position:absolute;
    top: 0rem;
    display: flex;
    align-items: center;
    justify-content: space-between;
-   padding: 4rem;
+   padding: 2rem;
+   left: -2rem;
    
 }
 
 .flechacarrusel img{
-    height: 4rem;
-   width: 4rem;
+    height: 2rem;
+   width: 2rem;
+   
 }
 
 #conteItem{
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
     top: 20rem;
    overflow: hidden;
 }
@@ -179,28 +120,28 @@ header ul{
 }
 
 #tarjetacarrusel-1 img{
-   width: 20rem;
-   height: 20rem;
+   width: 15rem;
+   height: 15rem;
 
 }
 
 
 #tarjetacarrusel-2 img{
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
 
 }
 
 
 #tarjetacarrusel-3 img{
-    width: 48rem;
-    height: 48rem;
+    width: 15rem;
+    height: 15rem;
 }
 
 .top{
 
- margin-top: 15rem; 
- margin-left:   10rem;
+ margin-top: 8rem; 
+ margin-left:   5rem;
 }
 
 
@@ -209,140 +150,123 @@ header ul{
 .completo{
     position: absolute;
 width: 100%;
-height: 60%;
-top: 23rem;
+height: 30rem;
+top: 14rem;
 bottom: 20rem;
 background:#EDDECD;
 box-shadow: inset 0px 4px 4px rgba(126, 126, 126, 0.64);
 }
 /**granos de cafe*/
 .cafeizquierda{
-    
+z-index: 1; 
 position: absolute;
-width: 10rem;
-height: 19rem;
+width: 12rem;
+height: 29rem;
 left: 0.2rem;
 top: 8rem;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .cafederecha{
+z-index: 1;
     position: absolute;
-width: 10rem;
-height: 19rem;
+width: 12rem;
+height: 29rem;
 right: 0.5rem;
 top: 0.4rem;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 /*cafe animado*/
  .grano1{
-    
+        display: none;
         position: absolute;
-        width: 3rem;
-        height: 3rem;
+        width: 6rem;
+        height: 6.4rem;
         right: 4rem;
-        top: 25rem;
+        top: 50rem;
         transform: rotate(-55.45deg);
         }
 
  .grano2{
-    
+        display: none;
         position: absolute;
-        width: 3rem;
-        height: 3rem;
+        width: 6.4rem;
+        height: 6.4rem;
         left: 4rem;
-        top: 35rem;
+        top: 50rem;
         transform: rotate(-55.45deg);
         }
 
 
  .grano3{
-    
+        display: none;
         position: absolute;
-        width: 3rem;
-        height: 3rem;
+        width: 6rem;
+        height: 6.4rem;
         left: 4rem;
         top: 5rem;
         transform: rotate(-55.45deg);
         }
 
 .title{
+    display: none;
     position: absolute;
     width: 30rem;
-    top: -3rem;
+    top: -24rem;
     z-index: 1;
     font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.2rem;
+    line-height: 5.8rem;
     text-align: center;
     text-transform: capitalize;
     color: #5A0505;
-    left: 7rem;
-   
+    left: -4rem;
+    
     
 }    
-/*panel*/
-**div2*/
+/************************************************/
+
+/**div2*/
 /**imagenes y fondo*/
-.marmol{
-    opacity: 0%;
-}
+
 .marmol img{
     position: absolute;
     width: 100%;
-    height: 89rem;
-    top: 150rem;
-    opacity: 0%;
+    height: 60rem;
+    top: 40rem;
 }    
 
 
-
 .caramel{
+        display: none;
         position: absolute;
-         height:  25rem;
+         height:  40rem;
         right: 0.8rem;
-        top: 55rem;
+        top: 100rem;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
     }
 .taza img{
-
+        display: none;
         position: absolute;
-        width: 15rem;
-        height: 20rem;
+        width: 38rem;
+        height: 48rem;
         left: 0.1rem;
-        top: 55rem;
+        top: 120rem;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
-    .cafebajo img{
-        z-index: 1;
-        position: absolute;
-        width: 14rem;
-        height: 24rem;
-        left: 0.1rem;
-        top: 175rem;
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    }
 
-    .tazon img{
-        z-index: 1;
-        position: absolute;
-        width: 20em;
-        height: 30rem;
-        right: 0.8rem;
-        top: 150rem;
-    }
 
 /***paneles de información*/
 
 /**cafe grano dorado*/
 .logo1 img{
     position: absolute;
-width: 10em;
-height: 10rem;
-left:   15rem;
-top: 70rem;
+width: 5rem;
+height: 5rem;
+left:   10rem;
+top: 41rem;
 border-radius: 10rem;
 z-index: 1;
 
@@ -351,231 +275,368 @@ z-index: 1;
 .descrip{
     
 position: absolute;
-width: 20rem;
-height: 20rem;
-left: 10rem;
-top: 77rem;
+width: 16rem;
+height: 10rem;
+left: 4rem;
+top: 45rem;
 background: #D1954D;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 3rem;
+border-radius: 1rem;
 
 }
 
 .descrip p{
 position: absolute;
-width: 100px;
-height:160px;
-left: 8rem;
-bottom: 20px;
+width: 180px;
+height: 120px;
+left: -4rem;
+top: -28rem;
 
 font-family: 'Quicksand';
 font-style: normal;
 font-weight: 500;
-font-size: 15px;
-line-height: 15px;
+font-size: 10px;
+line-height: 20px;
 text-align: justify;
 text-transform: capitalize;
 
-color: #FFFFFF;
+color: #ffffff;
 
 
 }
-
-
 
 /*torani*/
 
 .logo2 img{
     position: absolute;
-width: 10rem;
-height: 10rem;
-left: 15rem;
-top: 100rem;
+width: 5rem;
+height: 5rem;
+left:   10rem;
+top: 57rem;
 border-radius: 10rem;
 z-index: 1;
+
 }
 
 .descrip2{
     
 position: absolute;
-width: 20em;
-height: 20rem;
-left: 10rem;
-top: 108rem;
+width: 16rem;
+height: 10rem;
+left: 4rem;
+top: 60rem;
 background: #D1954D;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 3rem;
+border-radius: 1rem;
 
 }
 
 .descrip2 p{
 position: absolute;
-width: 8px;
-height: 160px;
-left:  7rem;
-bottom: 20px;
-right: -2rem;
+width: 180px;
+height: 120px;
+left: -4rem;
+top: -28rem;
+
 font-family: 'Quicksand';
 font-style: normal;
 font-weight: 500;
-font-size: 13px;
-line-height: 13px;
+font-size: 10px;
+line-height: 20px;
 text-align: justify;
 text-transform: capitalize;
 
-color: #FFFFFF;
+color: #ffffff;
 
 
 }
 
-/**magister*/
 
 /**magister*/
-
 .logo3 img{
     position: absolute;
-width: 10rem;
-height: 10rem;
-left: 15em;
-top: 135rem;
+width: 5rem;
+height: 5rem;
+left:   10rem;
+top: 72rem;
 border-radius: 10rem;
 z-index: 1;
+
 }
 
-.descrip3 {
+.descrip3{
     
-    position: absolute;
-    width: 20rem;
-    height: 20rem;
-    left: 10rem;
-    top: 144rem;
-    background: #D1954D;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 3rem;
+position: absolute;
+width: 16rem;
+height: 10rem;
+left: 4rem;
+top: 76rem;
+background: #D1954D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 1rem;
 
 }
 
 .descrip3 p{
-    position: absolute;
-    width: 7px;
-    height: 160px;
-    left:  6rem;
-    bottom: -px;
-    right: -2rem;
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 13px;
-    text-align: justify;
-    text-transform: capitalize;
-    
-    color: #FFFFFF;
+position: absolute;
+width: 180px;
+height: 120px;
+left: -4rem;
+top: -28rem;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 20px;
+text-align: justify;
+text-transform: capitalize;
+
+color: #ffffff;
+
 
 }
 /*catalogo*/
+
 .CATALOGOS{
-    top: 170rem;
-    
-    display: flex;
-    }
-    .CATALOGOS  :hover {
-    color:#ffffff;
-    background-color: var(--color2);}
-    
-    .CATALOGOS a{
-    text-decoration: none;
+
+position: absolute;
+width: 2rem;
+height: 5rem;
+left:  4rem;
+top: 175rem;
+border-radius: 6rem;
+
+display: flex;
+}
+.CATALOGOS  :hover {
+color:#ffffff;
+background-color: var(--color2);}
+
+.CATALOGOS a{
+    display: none;
+text-decoration: none;
+position: absolute;
+width: 15rem;
+height: 2rem;
+top: -85rem;
+color: #ffffff;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 3rem;
+text-transform: capitalize;
+background: #5A0505;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6rem;
+text-align: center;
+}
+
+
+.dorado{
     position: absolute;
-    width: 15rem;
-    height: 5rem;
-        right: 10rem;
-    color: #ffffff;
+width: 474px;
+height: 474px;
+left: 200px;
+top: 1250px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.55));
+}
+
+.ganos{
+    position: absolute;
+width: 474px;
+height: 474px;
+left: 916px;
+top: 1250px;
+
+background: #5A0505;
+}
+.ganos p{
+        position: absolute;
+    width: 389px;
+    height: 184px;
+    right: 50px;
+    bottom: 100px;
+    color: white;
     font-family: 'Quicksand';
     font-style: normal;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 3rem;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 191%;
+    /* or 46px */
+    
+    display: flex;
+    align-items: center;
+    text-align: justify;
     text-transform: capitalize;
-    background: #5A0505;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6rem;
-    text-align: center;
     }
     
-    /**REDES******************************************************/
+
+.ganos img{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 150px;
+    top: 12px;
+    
+}
+
+.flehca{
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 750px;
+    top: 1425px;
+    
+}
+
+/*css*/
+/**home******************************************************/
+
+.fondo{
+    
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: flex-start;
+}
+
+    h1{
+    left: -2rem;
+    margin-top: 23rem;
+    position: absolute;
+    display: flex;
+    font-family: 'Vidaloka', serif; 
+    margin-left: 7rem;
+    font-size:  1.2rem;
+    color: var(--color4);
+    
+    }
+
+    p{
+        left: -2rem;
+       width: 7rem; 
+    margin-top: 30rem;
+    position: absolute;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+
+    font-size:  0.3rem;
+    color: var(--color4);
+    }
+    .PRESENTACIÓN {
+        
+        width: 15%;
+        height: 5%;
+    
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 5rem;
+        display: flex;
+        flex-direction: row; 
+        background-color: var(--color4);
+        }  
+    .PRESENTACIÓN a {
+        position: absolute;
+        display: flex;
+        flex-direction: row; 
+        margin-bottom: 60rem;
+        top: 13rem;
+        width: 15%;
+        height: 2%;
+        border-radius: 2rem;
+        justify-content: space-around;
+        padding-top: 0.5rem;
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif; 
+        font-size: 0.2rem;
+    }
+    .PRESENTACIÓN  :hover {
+        color: white;
+        background-color: var(--color2);}
+
+
+     
+
+/**REDES******************************************************/
 
 
 .redes{
     position: absolute;
     width: 100%;
-    height: 70rem;
-    top: 180rem;
+    height: 40rem;
+    top: 100rem;
     background:#D1954D;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.64);
     }
-.redes h1{
+
+  
+    .redes h1{
+        z-index: 1;
+        position: absolute;
+        width: 2rem;
+        height: 4rem;
+        left: 2rem;
+        top: -20rem;
+        text-align: center;
+        font-family: 'Vidaloka';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 2rem;
+        text-transform: capitalize;
+        
+        color: var(--color4);
+        
+    
+    }
+    
+    
+    .phone{
     position: absolute;
-width: 2rem;
-height: 4rem;
-left: 10rem;
-top: 20rem;
-text-align: center;
-font-family: 'Vidaloka';
-font-style: normal;
-font-weight: 400;
-font-size: 5rem;
-line-height: 4rem;
-text-transform: capitalize;
-
-color: var(--color4);
-
-}
-
-
-.phone{
-position: absolute;
-width: 50rem;
-height: 50rem;
-right: 0rem;
-top: 65rem;
-
-}
-
-.insta{
-    position: absolute;
-width: 10.2rem;
-height: 10.2rem;
-left: 8rem;
-top: 50rem;
-
-}
-.insta img:hover{
-    opacity: 50%;
-    animation-duration: 1s;
-}
-
-
-.face{
-    position: absolute;
-    width: 10.2rem;
-    height: 10.2rem;
-    left: 20rem;
-    top: 50rem; 
-}
-
-.img:hover{
-    opacity: 50%;
-    animation-duration: 1s;
-}
-
-
+    width: 30rem;
+    height: 30rem;
+    right: 0rem;
+    top: 23rem;
+    
+    }
+    
+    .insta{
+        position: absolute;
+    width: 3rem;
+    height: 3rem;
+    left: 13rem;
+    top: 15rem;
+    
+    }
+    .insta img:hover{
+        opacity: 50%;
+        animation-duration: 1s;
+    }
+    
+    
+    .face{
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        left: 7rem;
+        top: 15rem; 
+    }
+    
+    .face img:hover{
+        opacity: 50%;
+        animation-duration: 1s;
+    }
+/*footer*/
 .footer{
  
     position: absolute;
     width: 100%;
-    height: 10rem;
+    height: 7rem;
     left: 0px;
-    top:   290rem;
+    top:   150rem;
     
     background: #5A0505;
 }
@@ -584,8 +645,8 @@ top: 50rem;
     position: absolute;
    
 
-    left: 3rem;
-    bottom: 3rem;
+    left: -5rem;
+    top: -20rem;
     
     font-family: 'Vidaloka';
     font-style: normal;
@@ -596,3 +657,5 @@ top: 50rem;
     
     color: #FFFFFF;
 }
+
+

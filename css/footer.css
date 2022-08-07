@@ -1,27 +1,26 @@
 .footer{
  
     position: absolute;
-    width: 100%;
-    height: 10rem;
+    width:100%;
+    height: 8rem;
     left: 0px;
-    top:   305rem;
+    top:   200rem;
     
     background: #5A0505;
 }
 
 .footer h1{
     position: absolute;
+   top: -34rem;
+    
    
-
-    left: 0.6rem;
-    bottom: 3rem;
     
     font-family: 'Vidaloka';
     font-style: normal;
     font-weight: 400;
-    font-size: 3.6rem;
+    font-size: 2rem;
     line-height: 4.4rem;
     text-transform: capitalize;
     
-    color: #FFFFFF;
+    color: #ffffff;
 }

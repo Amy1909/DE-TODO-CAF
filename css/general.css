@@ -1,15 +1,15 @@
-
-    *{
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
+    
     }
 
     
     html{
     font-family: 'Quicksand', sans-serif;
     font-family: 'Vidaloka', serif;
-    
+    overflow-x: hidden;
     
     }
     
@@ -22,6 +22,3 @@
         --color6: #ffffff;
     
     }
-    
-    
-    

@@ -4,6 +4,7 @@
     height: 100%; 
     display: flex;
     align-items: flex-start;
+    top: -0rem;
 }
 
     h1{
@@ -12,8 +13,9 @@
     display: flex;
     font-family: 'Vidaloka', serif; 
     margin-left: 7rem;
-    font-size:  7rem;
-    color: var(--color4);
+    font-size:  5rem;
+    color: #3D0404;
+    top: -15rem;
     }
 
     p{
@@ -22,8 +24,10 @@
     display: flex;
     font-family: 'Quicksand', sans-serif;
     margin-left: 7rem;
-    font-size:  1.6rem;
+    font-size:  1.2rem;
     color: var(--color4);
+    top: -20rem;
+    width: 50rem;
     }
     .PRESENTACIÓN {
 
@@ -35,6 +39,7 @@
         margin-left: 10rem;
         display: flex;
         flex-direction: row; 
+        
         }  
     .PRESENTACIÓN a {
         position: absolute;
@@ -51,10 +56,13 @@
         text-decoration: none;
         font-family: 'Quicksand', sans-serif; 
         font-size: 1.5rem;
+        background-color: var(--color4);
+        top: 35rem;
     }
     .PRESENTACIÓN  :hover {
         color: white;
-        background-color: var(--color2);}
+        background-color: var(--color2);
+        animation-duration: 1s;}
 
 
      
@@ -65,23 +73,23 @@
 .redes{
     position: absolute;
     width: 100%;
-    height: 78rem;
-    top: 230rem;
+    height: 45rem;
+    top: 155rem;
     background:#D1954D;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.64);
     }
 .h1red{
     position: absolute;
-width: 65.6rem;
-height: 4rem;
-left: 6rem;
-top: -10rem;
+width: 40rem;
+height: 7rem;
+left: -2rem;
+top: -20rem;
 
 font-family: 'Vidaloka';
 font-style: normal;
 font-weight: 400;
-font-size: 7.7rem;
-line-height: 9.4rem;
+font-size: 4rem;
+line-height: 5rem;
 text-transform: capitalize;
 
 color: #5A0505;
@@ -91,8 +99,8 @@ color: #5A0505;
 
 .phone{
 position: absolute;
-width: 75.0rem;
-height: 75.0rem;
+width: 40rem;
+height: 40rem;
 right: 1rem;
 top: 2.9rem;
 
@@ -102,8 +110,8 @@ top: 2.9rem;
     position: absolute;
 width: 10.2rem;
 height: 10.2rem;
-left: 71.4rem;
-top: 60rem;
+left:  40rem;
+top: 34rem;
 
 }
 .insta img:hover{
@@ -116,8 +124,8 @@ top: 60rem;
     position: absolute;
     width: 10.2rem;
     height: 10.2rem;
-    left: 60rem;
-    top: 60rem; 
+    left: 50rem;
+    top: 34rem; 
 }
 
 .img:hover{
